@@ -15,3 +15,4 @@ fetch('../doc/footer.html')
       document.getElementById('footer-placeholder').innerHTML = data;
     });
 });
+
