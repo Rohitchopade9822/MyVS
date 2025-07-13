@@ -1,0 +1,132 @@
+/* Top Navbar */
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #030d17;
+  color: white;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.nav-contact {
+  text-align: left;
+  font-weight: bold;
+}
+
+.nav-institute {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Second (Main) Navbar */
+.main-navbar {
+  background-color: #9a6fd3;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.main-navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.main-navbar nav a:hover {
+  text-decoration: underline;
+}
+/* Base Nav Links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+  background-color: rgba(239, 233, 233, 0.2);
+}
+
+/* Highlighted Links (Home & Course) */
+.highlight {
+  background-color: #110d02; /* yellow */
+  color: #000;
+}
+
+.highlight:hover {
+  background-color: #1f1803;
+  color: #fff;
+}
+.nav-link {
+  transition: transform 0.2s ease;
+}
+
+/* Class to scale up */
+.nav-clicked {
+  transform: scale(1.2);
+}
+.nav-email {
+  color: #ffc107; /* Yellow or any standout color */
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.nav-email:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #100202;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+.footer .social-links a {
+  color: #ffc107;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footer .social-links a:hover {
+  text-decoration: underline;
+}
+.nav-institute {
+  width: 500px;          /* Adjust width as needed */
+  height: 70px;          /* Adjust height as needed */
+  line-height: 60px;     /* Vertically center the text */
+  font-size: 24px;       /* Bigger text size */
+  font-weight: bold;
+  color: white;          /* Or your desired text color */
+   /* Optional: background to see size */
+  text-align: center;    /* Center text horizontally */
+  /* Optional: add some padding if you want */
+  /* padding: 10px; */
+}
+.nav-institute {
+  font-size: 70px;      /* Make text bigger */
+  font-weight: bold;    /* Make text bold */
+  line-height: normal;  /* Keep normal line height */
+  color: white;         /* Or your preferred color */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top-navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-contact,
+  .nav-institute {
+    margin: 5px 0;
+  }
+}

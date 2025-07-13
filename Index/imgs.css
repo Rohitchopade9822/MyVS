@@ -1,0 +1,25 @@
+.main-content {
+  display: flex;
+  gap: 30px; /* space between text and images */
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-content img {
+  width: 200px; /* set the width you want */
+  height: auto; /* keep aspect ratio */
+  display: block; /* avoid inline gaps */
+  border-radius: 8px; /* optional rounded corners */
+}
+
+.image-content img {
+  width: 10%;
+  height: auto;
+  border-radius: 8px; /* optional: round corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
